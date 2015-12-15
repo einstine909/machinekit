@@ -1,6 +1,3 @@
-from PIL.ImImagePlugin import MODE
-from PIL.ImageChops import offset
-from wx import TOOL_BOTTOM
 cdef extern from "posemath.h":
 	struct PmCartesian:
 		double x, y, z
